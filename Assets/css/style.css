@@ -1,0 +1,25 @@
+.thumbnail{
+	display: inline-block;
+}
+
+body{
+	background-image: url(https://public.dm1.livefilestore.com/y3pjECXIzgC2bGCZl8z9dz27ia2aEM30dklM0uCqTuywnxDA21YIspM_YFYoJsJAPHBVAnFHusFO-ngBDIPeyc3bq-FOoR2H6_T3iI7TQ2M7WyRr59YluEOGsMPxjduil6T/colourback_9006.jpg?rdrts=140987116);
+	font-family: 'Indie Flower', cursive;
+}
+
+h1{
+	font-size: 70pt;
+}
+
+.btn{
+	border-radius: 24px;
+}
+
+.btn-primary{
+	font-size: 20pt;
+}
+
+.gifButton{
+	font-size: 15pt;
+}
+

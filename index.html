@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+
+ <head>
+ 	<!-- Meta tag for bootstrap scaling --><meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- jQuery --><script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+	<!-- Reset CSS --><link rel="stylesheet" type="text/css" href="Assets/css/reset.css">
+	<!-- Bootstrap CSS --><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<!-- My CSS --><link rel="stylesheet" type="text/css" href="Assets/css/style.css">
+	<!-- Extra Font --> <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+	<title>GIF Explosion</title>
+</head>
+
+<body>
+	<!-- Main container -->
+	<div class="container">
+
+		<div id="headline">
+			<h1 class="text-center">GIF EXPLOSION!</h1>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-12 col-sm-2" id="buttonCol">
+				<div class="row">
+					<form class="form-inline">
+						<div class="form-group">
+						    <label class="sr-only">Add another cartoon character</label>
+						    <input type="text" class="form-control" id="searchForm" placeholder="Add a character">
+						</div>
+						<button type="submit" class="btn btn-primary">Submit</button>
+					</form>
+					<br>
+				</div>
+
+				<div class="row" id="buttonDiv">
+					<div class="btn-group-vertical" role="group" aria-label="Release the GIFs!">
+ 
+					</div>
+				</div>
+
+			</div>
+
+			<div class="col-sm-10" id="gifsDiv">
+				
+			</div>
+
+		</div>
+	</div>
+	<!-- /Main container -->
+	<!-- My JS --><script type="text/javascript" src="Assets/javascript/game.js"></script>
+
+</body>
+</html>
